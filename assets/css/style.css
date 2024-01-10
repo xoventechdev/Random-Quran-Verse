@@ -1,0 +1,29 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+#add-book {
+    margin: 10px 0px;
+    display: inline !important;
+    font-size: 22px;
+}
+
+option {
+    font-weight: 500;
+}
+
