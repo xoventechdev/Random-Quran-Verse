@@ -1,7 +1,6 @@
 let quraninfo = document.querySelector(".quran-info");
 let qurandetails = document.querySelector(".quran-details");
 let audioDiv = document.querySelector(".mp3");
-let shareDiv = document.querySelector(".card-body");
 let btnControl = document.querySelector(".button-control");
 
 
