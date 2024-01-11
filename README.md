@@ -1,4 +1,8 @@
-<h1>Quran Verse Randomizer</h1>
+<h1 align="center">Quran Verse Randomizer</h1>
+
+<p align="center">
+  <img src="https://github.com/xoventechdev/Random-Quran-Verse/blob/master/screencapture.png" alt="Project Image">
+</p>
 
     <p>This repository contains a simple web application that fetches a random Quran verse and displays its details. The application allows users to refresh and get a new random verse. Additionally, there's a feature to share the verse as an audio file.</p>
 
