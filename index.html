@@ -11,10 +11,11 @@
 
 <body>
 
-    <div class="container text-center">
+
+    <div class="container text-center mt-2">
         <div class="row">
-            <div class="col-8 col-md-8 col-sm-12 text-center">
-                <h2 class="text-primary"><span class="text-secondary">Random</span> Quran Verse</h2>
+            <h2 class="text-primary"><span class="text-secondary">Random</span> Quran Verse</h2>
+            <div class="col">
                 <div class="card">
                     <div class="card-body">
                         <div class="card-title quran-info">
@@ -24,18 +25,24 @@
 
                         </div>
                         <div class="mp3 mt1">
-                            <audio src="" id="quran-mp3" controls></audio>
+
                         </div>
 
                     </div>
+                    <div class="button-control mt-2 mb-3">
+                        <button type="button" class="btn btn-primary" onclick="fetchData()">Refresh</button>
+                        <!-- <button type="button" class="btn btn-primary" onclick="shareImage()">Share to Facebook as
+                            Image</button> -->
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
 
 
 
-
+    <!-- <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script> -->
     <script src="./assets/js/bootstrap.bundle.js"></script>
     <script src="./assets/js/app.js"></script>
 </body>
