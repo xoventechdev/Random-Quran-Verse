@@ -7,10 +7,12 @@
 <p align="center">This repository contains a simple web application that fetches a random Quran verse and displays its details. The application allows users to refresh and get a new random verse. Additionally, there's a feature to share the verse as an audio file.</p>
 
 <h2>Features</h2>
-ul>
+<ul>
   <li><strong>Random Quran Verse:</strong> Fetches a random Quran verse using the Al Quran Cloud API.</li>
   <li><strong>Verse Details:</strong> Displays information about the selected verse, including the Surah name, English translation, total verses, and revelation type.</li>
   <li><strong>Audio Playback:</strong> Provides an audio player to listen to the recitation of the selected verse by Alafasy.</li>
+  <li><strong>Refresh:</strong> Click the "Refresh" button to generate a new random Quran verse.</li>
+  <li><strong>Auto Refresh:</strong> Toggle the "Auto Refresh" switch to enable or disable automatic refreshing of the verse.</li>
 </ul>
 
 <h2>Usage</h2>
@@ -29,6 +31,14 @@ ul>
   <li>Open the HTML file in a web browser.</li>
   <li>Click the "Refresh" button to fetch a new random Quran verse.</li>
 </ol>
+
+
+<h2>Demo</h2>
+
+![Demo](https://github.com/xoventechdev/Random-Quran-Verse/blob/master/screencapture.png)
+
+[Live Demo](https://xoventechdev.github.io/Random-Quran-Verse/)
+
 
 <h2>Dependencies</h2>
 <ul>
